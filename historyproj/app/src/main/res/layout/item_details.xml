@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr_gradient">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgr_gradient"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#6A0A0A"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/goback"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/goback" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/icon_jbp" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="677dp"
+            android:background="#00FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="#00FFFFFF" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="580dp"
+                    android:background="#00FFFFFF"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/trans_div"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF"
+                            android:orientation="vertical">
+
+                            <View
+                                android:id="@+id/view47"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="#00FFFFFF" />
+
+                            <ImageView
+                                android:id="@+id/imageView2"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:background="#00FFFFFF"
+                                app:srcCompat="@drawable/profile_pic" />
+
+                            <View
+                                android:layout_width="10dp"
+                                android:layout_height="25dp"
+                                android:background="#00FFFFFF" />
+
+                            <View
+                                android:id="@+id/view12"
+                                android:layout_width="2dp"
+                                android:layout_height="20dp"
+                                android:background="#00FFFFFF" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#00FFFFFF"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="#00FFFFFF"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/Name_titler"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="#00FFFFFF"
+                                        android:fontFamily="@font/baloo_bhaina"
+                                        android:text="Imie"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/W"
+                                        android:textSize="24sp" />
+
+                                    <TextView
+                                        android:id="@+id/postName"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:background="#00FFFFFF"
+                                        android:ems="10"
+                                        android:fontFamily="sans-serif"
+                                        android:hint="Name"
+                                        android:text="Imie nie zostało dodane"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/W"
+                                        android:textColorHint="@color/W"
+                                        android:textSize="25sp"
+                                        android:textStyle="italic" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="#00FFFFFF"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/OtherNames_titler"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="#00FFFFFF"
+                                        android:fontFamily="@font/baloo_bhaina"
+                                        android:text="Inne Imiona"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/W"
+                                        android:textSize="24sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/postOtherNames"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="71dp"
+                                        android:background="#00FFFFFF"
+                                        android:ems="10"
+                                        android:hint="Other Names"
+                                        android:text="Inne imione nie zostały dodane"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/W"
+                                        android:textColorHint="@color/W"
+                                        android:textSize="25sp"
+                                        android:textStyle="italic" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <View
+                                android:id="@+id/view12"
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:background="#00FFFFFF" />
+
+                            <TextView
+                                android:id="@+id/CodeNames_titler"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#00FFFFFF"
+                                android:fontFamily="@font/baloo_bhaina"
+                                android:text="Pseudonimy"
+                                android:textAlignment="center"
+                                android:textColor="@color/W"
+                                android:textSize="24sp" />
+
+                            <TextView
+                                android:id="@+id/postCodeNames"
+                                android:layout_width="match_parent"
+                                android:layout_height="67dp"
+                                android:background="#00FFFFFF"
+                                android:ems="10"
+                                android:hint="Code Names"
+                                android:text="Pseudonimy nie zostały dodane"
+                                android:textAlignment="center"
+                                android:textColor="@color/W"
+                                android:textColorHint="@color/W"
+                                android:textSize="25sp"
+                                android:textStyle="italic" />
+
+                            <View
+                                android:id="@+id/Inscr"
+                                android:layout_width="10dp"
+                                android:layout_height="20dp"
+                                android:background="#00FFFFFF" />
+
+                            <TextView
+                                android:id="@+id/Inscription_titler"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#00FFFFFF"
+                                android:fontFamily="@font/baloo_bhaina"
+                                android:text="Epitafium"
+                                android:textAlignment="center"
+                                android:textColor="@color/W"
+                                android:textSize="24sp" />
+
+                            <View
+                                android:id="@+id/view14"
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:background="#00FFFFFF" />
+
+                            <TextView
+                                android:id="@+id/postInscription"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#00FFFFFF"
+                                android:ems="10"
+                                android:hint="Inscription"
+                                android:text="Epitafium nie zostało dodane"
+                                android:textAlignment="center"
+                                android:textColor="@color/W"
+                                android:textColorHint="@color/W"
+                                android:textSize="25sp"
+                                android:textStyle="italic" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/trans_div"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:id="@+id/view70"
+                            android:layout_width="120dp"
+                            android:layout_height="2dp"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF" />
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF"
+                            android:orientation="vertical">
+
+                            <View
+                                android:id="@+id/view13"
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF" />
+
+                            <TextView
+                                android:id="@+id/postBirthDate"
+                                android:layout_width="match_parent"
+                                android:layout_height="137dp"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF"
+                                android:ems="10"
+                                android:fontFamily="@font/baloo_bhaina"
+                                android:hint="Birth Date"
+                                android:text="Data urodzenia nie została dodana"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/W"
+                                android:textColorHint="@color/W"
+                                android:textSize="25sp" />
+
+                            <View
+                                android:id="@+id/view16"
+                                android:layout_width="2dp"
+                                android:layout_height="20dp"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF" />
+
+                            <TextView
+                                android:id="@+id/editDeathDate"
+                                android:layout_width="186dp"
+                                android:layout_height="85dp"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF"
+                                android:ems="10"
+                                android:fontFamily="@font/baloo_bhaina"
+                                android:text="Data śmierci nie została dodana"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/W"
+                                android:textColorHint="@color/W"
+                                android:textSize="25sp" />
+
+                            <View
+                                android:id="@+id/view66"
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF" />
+
+
+                        </LinearLayout>
+
+                        <View
+                            android:id="@+id/view17"
+                            android:layout_width="30dp"
+                            android:layout_height="2dp"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF"
+                            android:orientation="vertical">
+
+                            <View
+                                android:layout_width="10dp"
+                                android:layout_height="45dp"
+                                android:background="#00FFFFFF" />
+
+                            <TextView
+                                android:id="@+id/editBirthPlace"
+                                android:layout_width="200dp"
+                                android:layout_height="50dp"
+                                android:background="#00FFFFFF"
+                                android:ems="10"
+                                android:hint="Brak miejsca urodzenia"
+                                android:inputType="text"
+                                android:textAlignment="center"
+                                android:textColor="@color/W"
+                                android:textColorHint="@color/W"
+                                android:textSize="16sp"
+                                android:textStyle="italic" />
+
+                            <View
+                                android:layout_width="10dp"
+                                android:layout_height="35dp"
+                                android:background="#00FFFFFF" />
+
+                            <View
+                                android:id="@+id/view19"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:background="#00FFFFFF" />
+
+                            <TextView
+                                android:id="@+id/editDeathPlace"
+                                android:layout_width="200dp"
+                                android:layout_height="50dp"
+                                android:background="#00FFFFFF"
+                                android:ems="10"
+                                android:hint="Death Place"
+                                android:inputType="text"
+                                android:text="Brak miejsca śmierci "
+                                android:textAlignment="center"
+                                android:textColor="@color/W"
+                                android:textColorHint="@color/W"
+                                android:textSize="16sp"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="30dp"
+                    android:background="#00FFFFFF" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:orientation="horizontal">
+
+                        <Space
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/trans_div"
+                            android:orientation="vertical">
+
+                            <View
+                                android:id="@+id/view72"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:layout_weight="4"
+                                android:background="#00FFFFFF" />
+
+                            <ImageView
+                                android:id="@+id/imageView3"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:layout_weight="4"
+                                android:background="#00FFFFFF"
+                                app:srcCompat="@drawable/grave" />
+
+                            <View
+                                android:id="@+id/view74"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:layout_weight="4"
+                                android:background="#00FFFFFF" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#00FFFFFF"
+                                android:orientation="horizontal">
+
+                                <View
+                                    android:layout_width="10dp"
+                                    android:layout_height="12dp"
+                                    android:background="#00FFFFFF" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="#00FFFFFF"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="#00FFFFFF"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/BurialPlace_titler"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="82dp"
+                                            android:background="#00FFFFFF"
+                                            android:fontFamily="@font/baloo_bhaina"
+                                            android:text="Miejsce Pochówku"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/W"
+                                            android:textSize="24sp" />
+
+                                        <View
+                                            android:id="@+id/view75"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:background="#00FFFFFF" />
+
+                                        <TextView
+                                            android:id="@+id/postBurialPlace"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="#00FFFFFF"
+                                            android:ems="10"
+                                            android:text="Brak miejsca pochówku"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/W"
+                                            android:textColorHint="@color/W"
+                                            android:textSize="16sp"
+                                            android:textStyle="italic" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="#00FFFFFF"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/Cementery_titler"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="#00FFFFFF"
+                                            android:fontFamily="@font/baloo_bhaina"
+                                            android:text="Cmentarz"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/W"
+                                            android:textSize="24sp" />
+
+                                        <View
+                                            android:id="@+id/view77"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:background="#00FFFFFF" />
+
+                                        <TextView
+                                            android:id="@+id/postCemetery"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="50dp"
+                                            android:background="#00FFFFFF"
+                                            android:ems="10"
+                                            android:text="Brak informacji o cmentarzu"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/W"
+                                            android:textColorHint="@color/W"
+                                            android:textSize="16sp" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <View
+                                android:id="@+id/view20"
+                                android:layout_width="10dp"
+                                android:layout_height="20dp"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#00FFFFFF"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/editQuarter"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="#00FFFFFF"
+                                    android:ems="10"
+                                    android:inputType="text"
+                                    android:text="Kwatera"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/W"
+                                    android:textColorHint="@color/W"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/editRow"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="#00FFFFFF"
+                                    android:ems="10"
+                                    android:inputType="text"
+                                    android:text="Rząd"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/W"
+                                    android:textColorHint="@color/W"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/editGrave"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="#00FFFFFF"
+                                    android:ems="10"
+                                    android:inputType="text"
+                                    android:text="Grób"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/W"
+                                    android:textColorHint="@color/W"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+
+                            <View
+                                android:id="@+id/view79"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_weight="4"
+                                android:background="#00FFFFFF" />
+
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view83"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="3"
+                    android:background="#00FFFFFF" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00FFFFFF"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/trans_div"
+                        android:orientation="vertical">
+
+                        <View
+                            android:id="@+id/view82"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:layout_weight="3"
+                            android:background="#00FFFFFF" />
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_weight="3"
+                            android:background="#00FFFFFF"
+                            app:srcCompat="@drawable/medal" />
+
+                        <View
+                            android:id="@+id/view81"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_weight="3"
+                            android:background="#00FFFFFF" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#00FFFFFF"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="#00FFFFFF"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="#00FFFFFF"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/textView10"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="#00FFFFFF"
+                                            android:fontFamily="@font/baloo_bhaina"
+                                            android:text="Rangi"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/W"
+                                            android:textSize="24sp" />
+
+                                        <View
+                                            android:layout_width="2dp"
+                                            android:layout_height="20dp"
+                                            android:background="#00FFFFFF" />
+
+                                        <TextView
+                                            android:id="@+id/editRanks"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="#00FFFFFF"
+                                            android:ems="10"
+                                            android:text="brak informacji o rangach"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/W"
+                                            android:textColorHint="@color/W"
+                                            android:textSize="16sp"
+                                            android:textStyle="italic" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="#00FFFFFF"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/Badges_titler"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="#00FFFFFF"
+                                            android:fontFamily="@font/baloo_bhaina"
+                                            android:text="Odznaczenia"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/W"
+                                            android:textSize="24sp" />
+
+                                        <View
+                                            android:id="@+id/view21"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:background="#00FFFFFF" />
+
+                                        <TextView
+                                            android:id="@+id/postBadges"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="#00FFFFFF"
+                                            android:ems="10"
+                                            android:text="Brak informacji o odznaczeniach"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/W"
+                                            android:textColorHint="@color/W"
+                                            android:textSize="16sp"
+                                            android:textStyle="italic" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="10dp"
+                                    android:layout_height="20dp"
+                                    android:background="#00FFFFFF" />
+
+                                <View
+                                    android:layout_width="10dp"
+                                    android:layout_height="20dp"
+                                    android:background="#00FFFFFF" />
+
+                                <TextView
+                                    android:id="@+id/Activity_titler"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="#00FFFFFF"
+                                    android:fontFamily="@font/baloo_bhaina"
+                                    android:text="Wydarzenia"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/W"
+                                    android:textSize="24sp" />
+
+                                <View
+                                    android:id="@+id/view22"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="20dp"
+                                    android:background="#00FFFFFF" />
+
+                                <TextView
+                                    android:id="@+id/postActivity"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="#00FFFFFF"
+                                    android:ems="10"
+                                    android:inputType="text"
+                                    android:text="Brak informacji o wydarzeniach"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/W"
+                                    android:textColorHint="@color/W"
+                                    android:textSize="16sp"
+                                    android:textStyle="italic" />
+
+                                <View
+                                    android:id="@+id/view85"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="35dp"
+                                    android:background="#00FFFFFF" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view87"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#00FFFFFF" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00FFFFFF"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/trans_div"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="35dp"
+                            android:background="#00FFFFFF" />
+
+                        <TextView
+                            android:id="@+id/Description_titler"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#00FFFFFF"
+                            android:fontFamily="@font/baloo_bhaina"
+                            android:text="Opis"
+                            android:textAlignment="center"
+                            android:textColor="@color/W"
+                            android:textSize="24sp" />
+
+                        <View
+                            android:id="@+id/view23"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:background="#00FFFFFF" />
+
+                        <TextView
+                            android:id="@+id/postDescription"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#00FFFFFF"
+                            android:ems="10"
+                            android:gravity="start|top"
+                            android:text="Brak Opisu"
+                            android:textAlignment="center"
+                            android:textColor="@color/W"
+                            android:textColorHint="@color/W"
+                            android:textSize="16sp"
+                            android:textStyle="italic" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="20dp"
+                            android:background="#00FFFFFF" />
+
+                        <TextView
+                            android:id="@+id/Sources_titler"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#00FFFFFF"
+                            android:fontFamily="@font/baloo_bhaina"
+                            android:text="Źródła"
+                            android:textAlignment="center"
+                            android:textColor="@color/W"
+                            android:textSize="24sp" />
+
+                        <View
+                            android:id="@+id/view24"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:background="#00FFFFFF" />
+
+                        <TextView
+                            android:id="@+id/postSources"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#00FFFFFF"
+                            android:ems="10"
+                            android:inputType="text"
+                            android:text="Brak źródeł"
+                            android:textAlignment="center"
+                            android:textColor="@color/W"
+                            android:textColorHint="@color/W"
+                            android:textSize="16sp"
+                            android:textStyle="italic" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="40dp"
+                            android:background="#00FFFFFF" />
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view88"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#00FFFFFF" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF" />
+
+                    <Button
+                        android:id="@+id/backButton"
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_button"
+                        android:text="Powrót"
+                        android:textColor="@color/W" />
+
+                    <Space
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

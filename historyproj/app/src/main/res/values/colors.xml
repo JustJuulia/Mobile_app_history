@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="R">#751311</color>
+    <color name="BR">#B3001B</color>
+    <color name="W">#FFFFFF</color>
+    <color name="G">#3D3B41</color>
+    <color name="F">#1A1423</color>
+    <color name="R10">#b3B3001B</color>
+    <color name="W10">#1aFFFFFF</color>
+    <color name="W5">#0dFFFFFF</color>
+    <color name="neon_red">#9AED0606</color>
+</resources>
